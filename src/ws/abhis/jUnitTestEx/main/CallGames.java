@@ -1,3 +1,6 @@
+/*
+ * Class to call and add two games
+ */
 package ws.abhis.jUnitTestEx.main;
 
 public class CallGames {

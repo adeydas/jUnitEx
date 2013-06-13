@@ -10,6 +10,7 @@ public class Games {
   private double cost;
   private String gameName;
   
+  //getters and setters
   public void setGameName(String gameName) {
     this.gameName = gameName;
   }
@@ -26,6 +27,7 @@ public class Games {
     return this.cost;
   }
   
+  //sum of two games
   public Games sumOfGames(Games one, Games two) {
     Games result = new Games();
     result.cost = one.cost + two.cost;
